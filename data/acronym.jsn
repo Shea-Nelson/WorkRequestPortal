@@ -1,0 +1,110 @@
+[
+  {
+  "acronym": "AM",
+  "title": "Account Management"
+  },
+  {
+  "acronym": "CD",
+  "title": "Compliance Determination"
+  },
+  {
+  "acronym": "RECIEVABLES",
+  "title": "Receivables Management"
+  },
+  {
+  "acronym": "RETURNPROCESS",
+  "title": "Return & Revenue Processing"
+  },
+  {
+  "acronym": "AID",
+  "title": "Taxpayer Aid"
+  },
+  {
+  "acronym": "REFDIST",
+  "title": "Refunds and Distribution"
+  },
+  {
+  "acronym": "TSP",
+  "title": "Taxpayer Services"
+  },
+  {
+  "acronym": "CREATION",
+  "title": "Account Creation",
+  "parent": "Account Management"
+},
+  {
+    "acronym": "DEMOGRAPHICS",
+    "title": "Account Updates",
+    "parent": "Account Management"
+  },
+  {
+    "acronym": "LD",
+    "title": "Lead Development",
+    "parent": "Compliance Determination"
+  },
+  {
+    "acronym": "AUDIT",
+    "title": "Audit",
+    "parent": "Compliance Determination"
+  },
+  {
+    "acronym": "CAMPAIGNS",
+    "title": "Campaigns",
+    "parent": "Compliance Determination"
+  },
+  {
+    "acronym": "INVESTIGATION",
+    "title": "Criminal Investigations",
+    "parent": "Compliance Determination"
+  },
+  {
+    "acronym": "COLLECTION",
+    "title": "Collections",
+    "parent": "Receivables Management"
+  },
+  {
+    "acronym": "ENFORCEMENT",
+    "title": "Enforcement",
+    "parent": "Receivables Management"
+  },
+  {
+    "acronym": "CHECK",
+    "title": "Check Processing",
+    "parent": "Return & Revenue Processing"
+  },
+  {
+    "acronym": "DATACAPTURE",
+    "title": "Data Capture",
+    "parent": "Return & Revenue Processing"
+  },
+  {
+    "acronym": "DOCPROCESS",
+    "title": "Document Processing",
+    "parent": "Return & Revenue Processing"
+  },
+  {
+    "acronym": "EFT",
+    "title": "EFT PRocessing",
+    "parent": "Return & Revenue Processing"
+  },
+  {
+    "acronym": "RETURNREC",
+    "title": "Return Reconciliation",
+    "parent": "Return & Revenue Processing"
+  },
+  {
+    "acronym": "ASSISTANCE",
+    "title": "Taxpayer Assistance",
+    "parent": "Taxpayer Aid"
+  },
+  {
+    "acronym": "REFUND",
+    "title": "Refund Determination",
+    "parent": "Refunds and Distribution"
+  },
+  {
+    "acronym": "ASSISTANCE",
+    "title": "Revenue Accounting",
+    "parent": "Refunds and Distribution"
+  }  
+]

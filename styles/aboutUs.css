@@ -1,0 +1,46 @@
+#article {
+  text-align: left;
+  background-color: #fff;
+
+  color: #fff;
+}
+
+.articleContainer {
+  display: block;
+  padding: 40px 40px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.75);
+  margin-bottom: 20px;
+}
+
+.articleContainerShow {
+  display: block;
+}
+
+.articleContainer:nth-child(odd) {
+  background: #667cb9;
+}
+
+.articleContainer:nth-child(even) {
+  background: rgba(102,124,185,.8);
+}
+
+.articleContainer:first-child {
+  padding-top: 30px;
+}
+
+.articleTitle {
+  float: left;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 2.6em;
+  margin-right: 20px;
+}
+
+.articleContent {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 120%;
+}

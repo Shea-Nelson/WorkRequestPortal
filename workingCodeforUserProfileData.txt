@@ -1,0 +1,103 @@
+$(document).ready(function () {
+var accountName = '';
+var loginName = '';
+var userid = _spPageContextInfo.userId;
+function GetCurrentUser() {
+  var requestUri = _spPageContextInfo.webAbsoluteUrl + "/_api/web/getuserbyid(" + userid + ")";
+
+  var requestHeaders = { "accept" : "application/json;odata=verbose" };
+
+  $.ajax({
+    url : requestUri,
+    contentType : "application/json;odata=verbose",
+    headers : requestHeaders,
+    success : onSuccess,
+    error : onError
+  });
+}
+
+function onSuccess(data, request){
+  loginName = data.d.LoginName.split('|')[1];
+  accountName = data.d.LoginName;
+  console.log(loginName);
+  console.log(accountName);
+}
+
+function onError(error) {
+  alert(error);
+}
+
+GetCurrentUser();
+
+
+loginName = 'FDOR\\nelsons';
+$.ajax({
+        url: currentUrl + "/_api/SP.UserProfiles.PeopleManager/GetUserProfilePropertyFor(accountName=@v,propertyName='FirstName')?@v='" + encodeURIComponent(loginName) + "'",
+        method: "GET",
+        headers: { "Accept": "application/json; odata=verbose" },
+        success: function (data) {
+            console.log('here');
+            console.log(data.d);
+        },
+        error: function (data) {
+            console.log(JSON.stringify(data));
+        }
+});
+
+var requestHeaders = {
+"Accept": "application/json;odata=verbose",
+"X-RequestDigest": jQuery("#__REQUESTDIGEST").val()
+};
+
+jQuery.ajax({
+url: _spPageContextInfo.webAbsoluteUrl + "/_api/SP.UserProfiles.PeopleManager/GetPropertiesFor(@v)?@v='" + encodeURIComponent(loginName) + "'",
+type: "GET",
+//data: JSON.stringify(theData),
+contentType: "application/json;odata=verbose",
+headers: requestHeaders,
+success: function (data) {
+
+var obj = data;
+var rootObj = obj["d"];
+var userProfProps = rootObj["UserProfileProperties"];
+var results = userProfProps["results"];
+
+// results is array with 101 properties
+
+//last name has index 6
+var lNameObj = results[6];
+var lNameKey = lNameObj["Key"];
+var lNameValue = lNameObj["Value"];
+
+//first name has index 4
+var fNameObj = results[4];
+var fNameKey = fNameObj["Key"];
+var fNameValue = fNameObj["Value"];
+
+
+console.log(lNameKey);
+console.log(lNameValue);
+
+console.log(fNameKey);
+console.log(fNameValue);
+
+console.log(data.d);
+
+$.each(results, function (i, item) {
+  if (results[i].Key == 'FirstName') {
+    console.log('yo fname is ' + results[i].Value);
+  }
+  if (results[i].Key == 'WorkPhone') {
+    console.log('yo workphone is ' + results[i].Value);
+  }
+  if (results[i].Key == 'Manager') {
+    console.log('yo manager is ' + results[i].Value);
+  }
+});
+},
+error: function (jqxr, errorCode, errorThrown) {
+console.log("Error" + jqxr.responseText);
+}
+});
+
+});

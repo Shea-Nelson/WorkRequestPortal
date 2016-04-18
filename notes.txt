@@ -1,0 +1,27 @@
+/_api/web/lists/getbytitle('contactsList')/items
+
+
+section id="businessProcess" style postion absolute and height: calc(100% - 20px)
+and width: 80%
+background-color: rgba(154,190,221,1)
+
+
+.ms-backgroundImage
+
+
+var processContainerHeight = $('#cenOps').height();
+console.log(processContainerHeight);
+var padding = 60;
+processContainerHeight = processContainerHeight + padding;
+$('#businessProcess').css('min-height', processContainerHeight + 'px');
+console.log(processContainerHeight + 'px');
+
+.articleContainer:first-child {
+  background: #667cb9;
+}
+
+
+https://dorspdev13.fdor.dor.state.fl.us/sites/gta/process/am//_api/web/lists/getbytitle('contactsList')/items
+
+
+/_api/SP.UserProfiles.PeopleManager/GetPropertiesFor(accountName=@v)?@v='fdor/nelsons'

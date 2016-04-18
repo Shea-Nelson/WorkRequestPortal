@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CenOps Page Template</title>
+    <link rel="stylesheet" href="/sites/gta/SiteAssets/code/pageTemplates/WorkRequest/styles/index.css">
+    <link rel="stylesheet" href="/sites/gta/SiteAssets/code/tooltips/css/tooltips.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div id="createWrNav" class="container-links">
+          <div id="createWrTitle" class="container-links-title">
+            <img id="sapLogo" alt="SAP Logo" src="/sites/gta/SiteAssets/SAP_Transparent.svg">
+            CRM
+          </div>
+          <div id="createWrNavLinks" class="linksList">
+            <ul>
+              <li>
+                <a href="http://dor-wpap003.dor.dcs.sdc.state.fl.us:50000/irj/portal" title="Work requests will be submitted through the Work Request Management System by logging into CRM (PRD) using your network log in credentials. ">
+                  Login to Work Request Management System
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="siteNav" class="container-links">
+          <div id="siteNavTitle" class="container-links-title">
+            Site Navigation
+          </div>
+          <div id="siteNavLinks" class="linksList">
+          </div>
+        </div>
+        <div id="helpNav" class="container-links">
+          <div id="helpNavTitle" class="container-links-title">
+            Helpful Links
+          </div>
+          <div id="helpNavLinks" class="linksList">
+          </div>
+        </div>
+        <div id="dashboardNav" class="container-links">
+          <div id="dashboardTitle" class="container-links-title">
+            Dashboards
+          </div>
+          <div id="dashboardLinks" class="linksList">
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div id="announcements" class="container-main-content">
+        </div>
+        <div id="tableauChart" class="container-main-content">
+          <script type='text/javascript'
+            src='http://dorreport.fdor.dor.state.fl.us/javascripts/api/viz_v1.js'>
+          </script>
+          <!--<div class='tableauPlaceholder' style='width: 1204px; height: 836px;'>
+            <object class='tableauViz' width='1204' height='836' style='display:none;'>
+              <param name='host_url' value='http%3A%2F%2Fdorreport.fdor.dor.state.fl.us%2F' />
+              <param name='site_root' value='&#47;t&#47;GTA' />
+              <param name='name' value='WRMS-OverviewbyProcess&#47;OverviewbyProcess' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='showVizHome' value='n' />
+            </object>
+          </div>-->
+        </div>
+        <div id="myViz">
+        </div>
+      </main>
+    </div><!--wrapper-->
+  </body>
+  <script src="/sites/gta/SiteAssets/code/jquery/jquery-2.2.0.min.js"></script>
+  <script src="/sites/gta/SiteAssets/code/jquery/jquery-ui.min.js"></script>
+  <script src="/sites/gta/SiteAssets/code/pageTemplates/WorkRequest/scripts/index.js"></script>
+  <script src="/sites/gta/SiteAssets/code/tooltips/scripts/tooltips.js"></script>
+  <script src="http://dorreport.fdor.dor.state.fl.us/javascripts/api/tableau-2.js"></script>
+  <!--<script src="/sites/gta/SiteAssets/code/pageTemplates/WorkRequest/scripts/tableauViz.js"></script>-->
+  <!--[if !IE | (gt IE 8)]><!-->
+  <!--<script>
+    $(function() {
+      $("nav a[title]").tooltips();
+    });
+  </script>-->
+  <!--<![endif]-->
+</html>

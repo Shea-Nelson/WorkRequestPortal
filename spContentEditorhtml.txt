@@ -1,0 +1,47 @@
+<div class="container-links clearfix">
+   <div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false">
+      <div class="ms-rtestate-notify  ms-rtestate-read d2c1125a-ebf9-495f-a4d3-343cca3a30c5" id="div_d2c1125a-ebf9-495f-a4d3-343cca3a30c5" unselectable="on">
+      </div>
+      <div id="vid_d2c1125a-ebf9-495f-a4d3-343cca3a30c5" unselectable="on" style="display: none;">
+      </div>
+   </div>
+   <div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false">
+      <div class="ms-rtestate-notify  ms-rtestate-read db221c9d-89ef-4639-9137-c2503a1b3367" id="div_db221c9d-89ef-4639-9137-c2503a1b3367" unselectable="on">
+      </div>
+      <div id="vid_db221c9d-89ef-4639-9137-c2503a1b3367" unselectable="on" style="display: none;">
+      </div>
+   </div>
+</div>
+<div class="hero">
+   <div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false">
+      <div class="ms-rtestate-notify  ms-rtestate-read f4e534af-c342-4412-8908-60f30b35e315" id="div_f4e534af-c342-4412-8908-60f30b35e315" unselectable="on">
+      </div>
+      <div id="vid_f4e534af-c342-4412-8908-60f30b35e315" unselectable="on" style="display: none;">
+      </div>
+   </div>
+   <div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false">
+      <div class="ms-rtestate-notify  ms-rtestate-read c0085c5d-d0c4-4344-8dcd-1254d249ee41" id="div_c0085c5d-d0c4-4344-8dcd-1254d249ee41" unselectable="on">
+      </div>
+      <div id="vid_c0085c5d-d0c4-4344-8dcd-1254d249ee41" unselectable="on" style="display: none;">
+      </div>
+   </div>
+</div>
+<div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false">
+   <div class="ms-rtestate-notify  ms-rtestate-read ec58de2f-0999-4fd4-8b33-097bf5891619" id="div_ec58de2f-0999-4fd4-8b33-097bf5891619" unselectable="on">
+   </div>
+   <div id="vid_ec58de2f-0999-4fd4-8b33-097bf5891619" unselectable="on" style="display: none;">
+   </div>
+</div>
+<div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false">
+   <div class="ms-rtestate-notify  ms-rtestate-read 7ad95684-d397-48e7-a002-58b3ad5b59cb" id="div_7ad95684-d397-48e7-a002-58b3ad5b59cb" unselectable="on">
+   </div>
+   <div id="vid_7ad95684-d397-48e7-a002-58b3ad5b59cb" unselectable="on" style="display: none;">
+   </div>
+</div>
+<p>​</p>
+<div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false">
+   <div class="ms-rtestate-notify  ms-rtestate-read 4976da0b-f11e-42e5-a805-1f5070491002" id="div_4976da0b-f11e-42e5-a805-1f5070491002" unselectable="on">
+   </div>
+   <div id="vid_4976da0b-f11e-42e5-a805-1f5070491002" unselectable="on" style="display: none;">
+   </div>
+</div>
